@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./index.css";
 
-const API_BASE = "https://taskpilot-ai-1-thha.onrender.com";
+const API = "https://taskpilot-ai-1-thha.onrender.com";
 
 function App() {
   const [request, setRequest] = useState("");
